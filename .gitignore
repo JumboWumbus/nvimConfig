@@ -1,0 +1,6 @@
+
+plugin/
+
+.luacheck
+lazy-lock.json
+.luacheckrc
