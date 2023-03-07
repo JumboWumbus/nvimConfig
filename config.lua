@@ -7,7 +7,6 @@
 require("user.plugins")
 require("user.bookmark")
 require("user.mappings")
-require("user.config.lsp")
 require("utils.cheat_sh")
 
 vim.opt.shell = "pwsh.exe -NoLogo"
@@ -41,10 +40,10 @@ vim.opt.autochdir = true
 
 -- general
 lvim.log.level = "info"
--- lvim.format_on_save = {
--- 	enabled = true,
--- 	timeout = 3000,
--- }
+lvim.format_on_save = {
+	enabled = true,
+	timeout = 3000,
+}
 
 vim.o.termguicollors = true
 
